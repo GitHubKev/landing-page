@@ -3,8 +3,8 @@
 } */
 
 body{
-    /* padding: 0 100px; */
     margin: 0; 
+    font-family: 'Roboto', sans-serif;
     /* makes the box reach the end of width */
 }
 .header-flex-container, .main, .content-div{
@@ -16,75 +16,77 @@ body{
     color: white;
     padding-top: 50px;
 }
-
 .header-logo{
-    font-weight: bolder;
-    font-size: 24px;
-    flex: 5;
+    flex: 10;
+}
+.goldfish-logo{
+    height: 40px;
+    weight: 40px;
 }
 .flex-header-div{
     flex: 1;
     text-align: right;
 }
 .flex-header-div a{
-    color: white;
     text-decoration: none;
+    color: #E5E7EB;
 }
-
 .main{
     background-color: #1F2937;
     color: white;
+    display: flex;
+    padding: 100px 100px;
+}
+.main-left-side-div{
+    padding-right: 200px;
 }
 .main-text{
     font-size: 48px;
     font-weight: bolder;
 }
-.main-left-side-div{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
-
-.main-right-side-div{
-    display: flex;
-    flex-direction: column;
-}
-
 .sign-up-button{
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
     display: flex;
+    padding: 8px 30px;
+    border-radius: 10px;
+    /* styling the sign up button */
 }
-
 .goldfish-img{
     height: auto;
     width: 400px;
+    /* sizing the image  */
 }
 .information-text{
-    /* making the text 36px and extra bold and centered */
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
     margin: 50px;
+    /* making the text 36px and extra bold and centered */
 }
-
-.img-content-div{
-    flex: 4;
-}
-
 .content-div{
     /* positioning the image and width of the images */
     display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.img-content-div{
     text-align: center;
-    padding: 0 200px;
+    padding: 0px 10px;
+    flex-wrap: wrap;
 }
 .content-img{
+    /* styling the 4 fishes img */
     height: auto;
     width: 150px;
-    border: blue;
     background-color: lightblue;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .img-subtext{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -93,7 +95,7 @@ body{
 
 .testimonial-div{
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 70px 250px;
 }
 .testimonial{
     font-style: italic;
@@ -101,25 +103,50 @@ body{
     color: #1F2937;
 }
 .rock-quote{
-    font-weight: 900;
+    font-weight: bold;
     text-align: right;
     color: #1F2937;
-    font-size: 20px;
+    font-size: 26px;
 }
 .footer-flex-container{
     display: flex;
+    justify-content: center;
+    padding: 120px 0px;
 }
 .cta-div{
-    background-color: blue;
-    text-align: center;
+    background-color: #3882F6;
     color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.cta-div h4{
+    font-size: 20px;
+}
+.call-to-action{
+    margin: 0px;
+    padding: 0px 75px;
+}
+.cta-div, .cta-button-div{
+    padding: 50px;
+    /* the padding for the blue cta divs */
 }
 .cta-button-div{
-    background-color: blue;
+    background-color: #3882F6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 100px;
 }
 .cta-button{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 30px;
 }
+
 .footer-copyright{
+    font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
     color: white;
     text-align: center;
