@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
 </head>
 
 <header>
     <div class="header-flex-container">
-        <div class="header-logo">Header Logo</div>
+        <div class="header-logo">
+            <img class="goldfish-logo" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/10953/goldfish-fish-clipart-md.png" alt="goldfish-logo">
+        </div>
         <div class="flex-header-div"><a href="">About</a></div>
         <div class="flex-header-div"><a href="">Shop</a></div>
         <div class="flex-header-div"><a href="">Contact</a></div>
@@ -21,7 +26,7 @@
     <div class="main">
         <div class="main-left-side-div">
             <h1 class="main-text">This is a goldfish fanpage</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <p class="secondary-text">The place for all things goldfish. If you love goldfishes, then you're on the right page. Please enjoy and scroll through my website.</p>
             <button class="sign-up-button">Sign Up</button>
         </div>
 
@@ -31,9 +36,10 @@
     </div>
 
     <h2 class="information-text">Some random information</h2>
+
     <div class="content-div">
         <div class="img-content-div"><img class="content-img" src="https://www.aqueon.com/-/media/Images/AqueonNew%20NA/US/Assets/Care-Sheets/blackgoldfish2_600x400.png" alt="black moor goldfish">
-        <p class="img-subtext">This is a black moor telescope goldfish</p>
+        <p class="img-subtext">This is a black moor goldfish</p>
         </div>
         <div class="img-content-div"><img class="content-img" src="https://mytanklife.b-cdn.net/wp-content/uploads/2021/08/Red_cap_oranda-removebg-preview-300x300.png" alt="red cap oranda">
         <p class="img-subtext">This is a red cap oranda goldfish</p>
@@ -53,8 +59,8 @@
 
     <div class="footer-flex-container">
         <div class="cta-div">
-            <p>Call to action! It's Time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+            <h4 class="call-to-action">Call to action! It's Time!</h4>
+            <p class="call-to-action">Sign up for our product by clicking that button right over there!</p>
         </div>
         <div class="cta-button-div">
             <button class="cta-button">Sign up</button>
@@ -64,7 +70,7 @@
 
 <footer>
     <div class="footer-copyright">
-        <p></p>Copyright The Odin Project 2021</p>
+        <p>Copyright &copy; The Odin Project 2021</p>
     </div>
 </footer>
 </html>
